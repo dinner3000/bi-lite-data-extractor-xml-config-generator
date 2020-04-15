@@ -7,7 +7,7 @@ __author__ = 'Gary.Z'
 
 import timeit
 
-from data_cleansing.config import *
+from config_generator.config import *
 
 logger = get_logger(__name__)
 

@@ -6,7 +6,7 @@
 __author__ = 'Gary.Z'
 
 import os
-from data_cleansing.clock import *
+from config_generator.clock import *
 
 logger = get_logger(__name__)
 
@@ -42,7 +42,9 @@ class XmlConfigGenerator:
 
     @clocking
     def run(self):
-        raise Exception('not implement')
+        # raise Exception('not implement')
+        self._log_header()
+        self._log_tailer()
 
     def _log_header(self):
         self._logger.info('')

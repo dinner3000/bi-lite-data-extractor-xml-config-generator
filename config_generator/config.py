@@ -5,7 +5,7 @@
 
 __author__ = 'Gary.Z'
 
-from data_cleansing.logging import *
+from config_generator.logging import *
 #
 # EXCEL_INDEX_BASE = 1
 # HEADER_ROW_INDEX = 0 + EXCEL_INDEX_BASE

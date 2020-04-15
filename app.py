@@ -8,7 +8,7 @@ __author__ = 'Gary.Z'
 import time
 import click
 
-from data_cleansing.xml_config_generator import *
+from config_generator.xml_config_generator import *
 
 logger = get_logger(__name__)
 
@@ -26,6 +26,7 @@ def main(input_folder, output_file, date_filter):
         exit(0)
 
     generator = XmlConfigGenerator(input_folder, output_file)
+    generator.run()
 
 
 if __name__ == '__main__':
